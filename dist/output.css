@@ -784,10 +784,6 @@ video {
   display: none;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
@@ -798,10 +794,6 @@ video {
 
 .w-\[weird-and-invalid\] {
   width: weird-and-invalid;
-}
-
-.w-screen {
-  width: 100vw;
 }
 
 .flex-shrink {
@@ -2312,6 +2304,11 @@ video {
 .image-slider {
   visibility: hidden;
   position: absolute;
+  inset: 0px;
+  max-height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100vw;
   opacity: 0;
 }
 

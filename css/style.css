@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 .image-slider {
-    @apply absolute invisible;
+    @apply absolute invisible inset-0 max-h-screen object-cover;
+    width: 100vw;
     opacity: 0;
 }
 

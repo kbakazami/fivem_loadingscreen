@@ -1,4 +1,8 @@
 {
+  "license": "UNLICENSED",
+  "name": "loadingscreen",
+  "author": "Kba",
+  "version": "1.0.0",
   "devDependencies": {
     "tailwindcss": "^3.3.6"
   }
