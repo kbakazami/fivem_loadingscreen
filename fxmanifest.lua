@@ -11,6 +11,10 @@ files {
     'index.html',
     'css/style.css',
     'js/script.js',
+    'assets/img01.jpg',
+    'assets/img02.jpg',
+    'assets/img03.jpg',
+    'dist/output.css',
 }
 
 
